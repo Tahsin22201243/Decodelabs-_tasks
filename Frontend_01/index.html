@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Decode Labs — Frontend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;800&family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#top" class="brand">
+        <span class="brand-mark">Decodes</span>
+        <span class="brand-coord">lab</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav id="primaryNav" class="primary-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#work" data-nav>Work</a></li>
+          <li><a href="#about" data-nav>About</a></li>
+          <li><a href="#skills" data-nav>Skills</a></li>
+          <li><a href="#contact" data-nav class="nav-cta">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <section class="hero" id="hero">
+      <p class="eyebrow">
+        <span class="corner">⌐</span> Frontend Developer &amp; Layout Architect
+      </p>
+      <h1 class="hero-title">
+        Hi it's H. M. Tahsin Sheikh!<br />
+        <span class="hero-underline">A Decode Labs Full Stack Developer</span>
+      </h1>
+      <p class="hero-sub">
+        Semantic HTML, deliberate CSS, and just enough JavaScript.
+        No frameworks — the fundamentals, built to spec.
+      </p>
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-primary">View the blueprints</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+      <div class="hero-spec" aria-hidden="true">
+        <span>viewport: fluid</span>
+        <span>breakpoints: 768 / 1024</span>
+        <span>units: clamp()</span>
+      </div>
+    </section>
+
+    <section class="work" id="work">
+      <h2 class="section-title"><span class="section-index">01</span> Selected Work</h2>
+      <div class="project-grid">
+
+        <article class="project-card">
+          <div class="project-thumb" aria-hidden="true">
+            <img src="images/Software.jpeg" alt="Software dashboard preview">
+            <span class="thumb-tag">Shohoj Biniyog</span>
+          </div>
+          <h3>Investment Platform</h3>
+          <p>A halal SME investment platform with a focus on user experience and financial transparency.</p>
+          <a href="https://github.com/Tahsin22201243/SohojWeb.git" data-nav class="project-link">View project →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb" aria-hidden="true">
+            <img src="images/Network.png" alt="Networking landing page preview">
+            <span class="thumb-tag">UAP Network</span>
+          </div>
+          <h3>University Networking System </h3>
+          <p>University of Asia Pacific Networking System that facilitates seamless communication and collaboration among students, faculty, and staff.</p>
+          <a href="https://github.com/Tahsin22201243/UAP_Networking.git" data-nav class="project-link">View project →</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-thumb" aria-hidden="true">
+            <img src="images/Microprocessor.png" alt="BOD grid app preview">
+            <span class="thumb-tag">BOD</span>
+          </div>
+          <h3>Batwave Objects Detector</h3>
+          <p>The BOD is a microprocessor-based system designed for detecting and identifying objects in real-time applications.</p>
+          <a href="https://github.com/Tahsin22201243/Batwave_Object_Detector.git" data-nav class="project-link">View project →</a>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-grid">
+        <div class="about-copy">
+          <h2 class="section-title"><span class="section-index">02</span> About</h2>
+          <p>
+            I'm a frontend developer who enjoys turning ideas into clean, responsive, and user-friendly interfaces.
+            I focus on React, modern frontend technologies, and writing structured, maintainable code.
+            I care about semantic HTML, accessibility, responsive design, and creating interfaces that work smoothly across different screen sizes.
+          </p>
+          <p>
+            Currently building out my responsive-design fundamentals —
+            one breakpoint at a time.
+          </p>
+        </div>
+        <dl class="about-specs">
+          <div><dt>Based in</dt><dd>Remote</dd></div>
+          <div><dt>Focus</dt><dd>Frontend &amp; UI</dd></div>
+          <div><dt>Stack</dt><dd>HTML · CSS · JS</dd></div>
+          <div><dt>Status</dt><dd>Open to work</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <h2 class="section-title"><span class="section-index">03</span> Toolkit</h2>
+      <ul class="skills-grid">
+        <li><span class="skill-name">HTML5</span><span class="skill-note">Semantic landmarks</span></li>
+        <li><span class="skill-name">CSS Grid</span><span class="skill-note">Macro layout</span></li>
+        <li><span class="skill-name">Flexbox</span><span class="skill-note">Micro components</span></li>
+        <li><span class="skill-name">JavaScript</span><span class="skill-note">State &amp; interaction</span></li>
+        <li><span class="skill-name">Responsive Design</span><span class="skill-note">Mobile-first</span></li>
+        <li><span class="skill-name">Accessibility</span><span class="skill-note">WCAG basics</span></li>
+      </ul>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="section-title"><span class="section-index">04</span> Contact</h2>
+      <p class="contact-lead">Have a project in mind? I'd like to hear about it.</p>
+      <a class="btn btn-primary" href="mailto:hmtahsinsheikh@gmail.com">Say hello →</a>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>© 2026 H. M. Tahsin Sheikh</span>
+      <span class="footer-coord">Built mobile-first · No frameworks</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
